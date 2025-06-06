@@ -8,7 +8,7 @@ param ($type)
 
 # Set variables.
 $AppName = "[APPNAME]"
-$Path_logs = "$env:Programfiles\_MEM"
+$Path_logs = "$env:Programfiles\[Logs folder]"
 $FilePath = "$PSScriptRoot\[EXE in file folder]"
 $InstallArgumentList = "/install /silent /norestart" # Might need to edit this, usualy the same parameters are used
 $UninstallArgumentList = "/uninstall /silent /norestart" # Might need to edit this, usualy the same parameters are used
