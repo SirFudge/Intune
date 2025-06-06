@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; Usable settings
+; \"custom_name\": \"Example\"
+; \"url\": \"https://www.example.com\"
+; \"create_desktop_shortcut\": true/false
+; \"default_launch_container\": \"window\"
+; \"custom_icon\": { \"hash\": \"[Some Hash]\", \"url\": \"https://example.com/icon.jpg\" }
+
+; Example
+; "{ \"custom_name\": \"Example\", \"url\": \"https://www.example.com\", \"create_desktop_shortcut\": true, \"default_launch_container\": \"window\" }"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\WebAppInstallForceList]
+"1"="{ \"custom_name\": \"Example\", \"url\": \"https://www.example.com\", \"create_desktop_shortcut\": true, \"default_launch_container\": \"window\" }"
