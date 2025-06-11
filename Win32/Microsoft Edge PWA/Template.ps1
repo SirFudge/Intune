@@ -8,7 +8,7 @@ param ($type)
 
 # Set variables.
 $AppName = "[App_Name]"
-$Path_logs = "$env:Programfiles\_MEM"
+$Path_logs = "[Path\to\log\directory]"
 $RegPath = "$PSScriptRoot\[File_name].reg"
 $RegDelPath = "$PSScriptRoot\[File_name].reg"
 
